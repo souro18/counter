@@ -27,7 +27,7 @@ const Counter = () => {
 
   return (
     <div>
-      <div>{time}</div>
+      <h2>{time}</h2>
       {isRunning ? (
         <div>
           <button onClick={onPause}>Pause</button>
